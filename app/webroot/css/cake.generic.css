@@ -50,6 +50,11 @@ h1 {
 	color: #003d4c;
 	font-size: 100%;
 }
+
+h1#accueil {
+	float: left;
+}
+
 h2 {
 	background:#fff;
 	color: #e32;
@@ -67,7 +72,22 @@ h4 {
 }
 ul, li {
 	margin: 0 12px;
+	list-style: none;
 }
+
+li.connec {
+	float: right;	
+}
+
+li.connec a{
+	color: #fff;
+	text-decoration: none;
+}
+
+li.connec a:hover{
+	color: #EE3322;
+}
+
 p {
 	margin: 0 0 1em 0;
 }
@@ -82,7 +102,7 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
+	background: #003d4c;
 	color: #fff;
 	padding: 0px 30px;
 }
@@ -93,10 +113,9 @@ p {
 	text-decoration: none;
 }
 #header h1 a:hover {
-	color: #fff;
-	background: #003d4c;
-	text-decoration: underline;
+	color: #EE3322;
 }
+
 #header.admin,#header.admin h1, #header.admin h1 a{
 	background-color:#a00;
 }
@@ -110,7 +129,7 @@ p {
 #footer {
 	clear: both;
 	padding: 6px 10px;
-	text-align: right;
+	text-align: center;
 }
 
 /** containers **/
